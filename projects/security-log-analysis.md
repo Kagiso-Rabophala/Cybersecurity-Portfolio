@@ -1,34 +1,39 @@
 # Security Log Analysis
 
 ## Project Overview
-This beginner cybersecurity project focuses on reviewing sample authentication logs to identify potentially suspicious login activity.
+This beginner cybersecurity project focuses on analysing sample authentication logs to identify potentially suspicious login activity.
 
 ## Objective
-To practise analysing login records and recognising patterns that may indicate a security risk.
+Practise reviewing login records, identifying unusual patterns, and recommending defensive security measures.
 
 ## Tools Used
 - GitHub for project documentation
-- Sample authentication logs
+- Sample authentication logs (to be added)
 - Basic log analysis techniques
 
 ## Methodology
-1. Review the sample login records.
+1. Review sample authentication records.
 2. Identify failed and successful login attempts.
-3. Look for repeated failed logins from the same source.
-4. Record suspicious patterns and explain why they may require investigation.
+3. Look for repeated failed logins and unusual activity.
+4. Record suspicious patterns for further investigation.
 5. Recommend appropriate defensive actions.
 
 ## Findings
-Findings will be documented after analysing the sample logs. No conclusions have been made yet.
+Practical log analysis is still in progress. Findings will be documented after reviewing the sample data. No security conclusions have been confirmed yet.
 
 ## Recommendations
 - Monitor repeated failed login attempts.
-- Investigate unusual login patterns.
+- Investigate unusual login activity.
 - Use strong passwords and multi-factor authentication.
-- Follow an organisation's incident reporting procedures.
+- Follow incident reporting procedures.
 
 ## Learning Outcomes
-This project is intended to develop skills in authentication log review, threat identification, security monitoring, and technical documentation.
+- Understanding authentication logs
+- Recognising potentially suspicious login patterns
+- Practising security monitoring and documentation
 
 ## Project Status
-Documentation started. Practical analysis and findings are still to be completed.
+Documentation created. Practical analysis and evidence still need to be added.
+
+## Disclaimer
+This is a learning project using sample data. No real organisation's systems were accessed.
