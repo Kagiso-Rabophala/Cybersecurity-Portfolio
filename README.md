@@ -1,34 +1,73 @@
+
 # Kagiso Humphrey Rabophala | Cybersecurity Portfolio
 
 Welcome to my cybersecurity portfolio!
 
-I am an aspiring cybersecurity professional who completed cybersecurity training at ALX Africa. I am developing my practical skills and building experience in security operations, threat detection, incident response, and cybersecurity best practices.
+I am an aspiring cybersecurity professional who completed cybersecurity training at ALX Africa. I am developing my practical technical skills through hands-on projects, security labs, and continuous learning.
+
+My career interests include Security Operations Centre (SOC), threat detection, security monitoring, incident response, and defensive cybersecurity practices.
 
 ## About Me
+
 - **Training:** Cybersecurity — ALX Africa
 - **Career interests:** Security Operations (SOC), Threat Detection, Incident Response
 - **Location:** Johannesburg, South Africa
-- **Current focus:** Hands-on cybersecurity projects, practical labs, and continuous learning
+- **Current focus:** Python scripting, authentication log analysis, security monitoring concepts, and practical cybersecurity projects
 
 ## Skills and Learning Areas
+
 - Cybersecurity fundamentals
-- Threat identification and analysis
+- Authentication log analysis
+- Python scripting and CSV processing
+- Basic security alerting and threat investigation
 - Security monitoring concepts
 - Incident response fundamentals
-- Security best practices
+- Defensive security best practices
+- GitHub and version control
 
 ## Projects
-My projects and practical exercises will be documented here as I continue developing my skills.
 
-Each project will include its objective, tools used, steps performed, findings, and lessons learned.
+### 1. Authentication Log Analysis and Failed Login Detection
+
+**Objective:** Analyse sample authentication logs using Python and identify repeated failed login attempts that may require further investigation.
+
+**Tools used:**
+- Python
+- Google Colab
+- CSV files
+- GitHub
+
+**What I did:**
+- Analysed authentication records from a CSV file.
+- Counted successful and failed login attempts.
+- Grouped failed attempts by username and source IP address.
+- Implemented a basic alert when a username has three or more failed login attempts.
+- Documented findings, recommendations, and limitations.
+
+**Key results from the sample dataset:**
+- Login records analysed: 12
+- Successful logins: 4
+- Failed logins: 8
+- Generated alerts for usernames with three or more failed attempts.
+
+**Project files:**
+- [Project Documentation](projects/security-log-analysis.md)
+- [Python Analysis Script](projects/analyze_logs.py)
+- [Sample Authentication Logs](projects/sample-authentication-logs.csv)
+
+**Important limitation:** This project uses fictional training data. Repeated failed logins are indicators for investigation, not proof of a cyberattack or compromised account.
 
 ## Certifications
-- ALX Africa cybersecurity certificate
+
+- **ALX Africa — Cybersecurity Training Certificate**
 
 ## Career Objective
-I am seeking opportunities to apply my cybersecurity knowledge, learn from experienced professionals, and contribute to protecting systems, networks, and information.
+
+I am seeking cybersecurity learnerships and entry-level opportunities where I can apply my foundational knowledge, continue developing practical skills, learn from experienced professionals, and contribute to protecting systems, networks, and information.
 
 ## Contact
-- **GitHub:** https://github.com/Kagiso-Rabophala
+
+- **GitHub Profile:** [Kagiso-Rabophala](https://github.com/Kagiso-Rabophala)
+- **Portfolio Repository:** [Cybersecurity Portfolio](https://github.com/Kagiso-Rabophala/Cybersecurity-Portfolio)
 
 Thank you for visiting my portfolio!
