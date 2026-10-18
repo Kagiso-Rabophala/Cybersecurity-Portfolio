@@ -83,3 +83,12 @@ Documentation created. Practical analysis and evidence still need to be added.
 
 ## Disclaimer
 This is a learning project using sample data. No real organisation's systems were accessed.
+
+## Skills Demonstrated
+
+- Authentication log analysis
+- Identification of repeated failed login attempts
+- Recognition of potentially suspicious login patterns
+- Basic security investigation and evidence-based reporting
+- Defensive security recommendations
+- GitHub documentation and version control
