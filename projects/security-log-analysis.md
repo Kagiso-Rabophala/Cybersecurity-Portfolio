@@ -19,7 +19,53 @@ Practise reviewing login records, identifying unusual patterns, and recommending
 5. Recommend appropriate defensive actions.
 
 ## Findings
-Practical log analysis is still in progress. Findings will be documented after reviewing the sample data. No security conclusions have been confirmed yet.
+The sample authentication logs were reviewed to identify repeated failed login attempts and successful logins following those failures.
+
+Observation 1: Repeated failed logins
+
+Username: thabo
+
+Source IP: 192.0.2.11
+
+Failed attempts: 4
+
+Time range: 08:05:30–08:06:08 on 15 October 2026
+
+Subsequent event: Successful login at 08:06:21.
+
+Observation 2: Successful login after repeated failures
+
+The account thabo recorded four consecutive failed login attempts followed by a successful login 13 seconds after the final failure.
+
+This pattern may indicate repeated password guessing or another authentication issue. Further investigation would be required before determining whether the activity was malicious.
+
+Observation 3: Repeated failures on the admin account
+
+Username: admin
+
+Source IP: 192.0.2.12
+
+Failed attempts: 3
+
+Time range: 08:10:02–08:10:29 on 15 October 2026
+
+The three consecutive failures warrant review, although no successful login from this source IP is shown immediately afterward in the supplied sample.
+
+Recommendations
+
+Review authentication logs for additional activity involving the affected accounts and source IPs.
+
+Check whether the successful login was expected and authorised.
+
+Apply appropriate account lockout or rate-limiting controls.
+
+Enable multi-factor authentication where supported.
+
+Continue monitoring for repeated failures and unusual login patterns.
+
+Limitations
+
+This analysis uses a small sample dataset created for training. The observations do not establish that an account was compromised or that an attack occurred.
 
 ## Recommendations
 - Monitor repeated failed login attempts.
