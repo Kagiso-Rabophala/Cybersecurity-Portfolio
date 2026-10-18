@@ -92,3 +92,33 @@ This is a learning project using sample data. No real organisation's systems wer
 - Basic security investigation and evidence-based reporting
 - Defensive security recommendations
 - GitHub documentation and version control
+
+
+## Python Automation
+
+I developed and ran a Python script to analyse sample authentication logs.
+
+The script:
+- Reads authentication records from a CSV file.
+- Counts successful and failed login attempts.
+- Groups failed attempts by username and source IP address.
+- Summarises results to support initial security investigations.
+
+### Results
+
+- Total login attempts analysed: 12
+- Successful logins: 4
+- Failed logins: 8
+- Highest failed-attempt count by user: thabo (4)
+
+### Limitations
+
+The dataset contains fictional training records. Repeated failed logins are indicators for further investigation, not proof of a cyberattack or account compromise.
+
+## Tools Used
+
+- Python
+- CSV file processing
+- Google Colab
+- GitHub
+
