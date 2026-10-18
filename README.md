@@ -59,7 +59,13 @@ My career interests include Security Operations Centre (SOC), threat detection, 
 
 ## Certifications
 
-- **ALX Africa — Cybersecurity Training Certificate**
+ **ALX — Cybersecurity Certificate of Achievement
+
+Programme: Cyber Security
+
+Achievement: Awarded upon graduation after meeting all course and assessment requirements.
+
+Issuer: ALX Africa **
 
 ## Career Objective
 
