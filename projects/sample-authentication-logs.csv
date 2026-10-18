@@ -1,0 +1,14 @@
+
+timestamp,username,source_ip,status,auth_method
+2026-10-15 08:00:12,kagiso,192.0.2.10,SUCCESS,password
+2026-10-15 08:05:30,thabo,192.0.2.11,FAILED,password
+2026-10-15 08:05:42,thabo,192.0.2.11,FAILED,password
+2026-10-15 08:05:55,thabo,192.0.2.11,FAILED,password
+2026-10-15 08:06:08,thabo,192.0.2.11,FAILED,password
+2026-10-15 08:06:21,thabo,192.0.2.11,SUCCESS,password
+2026-10-15 08:10:02,admin,192.0.2.12,FAILED,password
+2026-10-15 08:10:15,admin,192.0.2.12,FAILED,password
+2026-10-15 08:10:29,admin,192.0.2.12,FAILED,password
+2026-10-15 09:15:00,kagiso,192.0.2.10,SUCCESS,password
+2026-10-15 09:20:17,admin,192.0.2.13,SUCCESS,password
+2026-10-15 09:25:44,lerato,192.0.2.14,FAILED,password
