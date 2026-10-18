@@ -122,3 +122,26 @@ The dataset contains fictional training records. Repeated failed logins are indi
 - Google Colab
 - GitHub
 
+## Detection Rule: Repeated Failed Logins
+
+### Objective
+Identify usernames with three or more failed login attempts in the sample authentication logs.
+
+### Rule Logic
+- Count failed login attempts for each username.
+- Set the training alert threshold to 3 failed attempts.
+- Generate an alert when a username reaches or exceeds the threshold.
+- Review the related logs before deciding whether the activity is suspicious.
+
+### Test Results
+- thabo: 4 failed attempts — alert generated.
+- admin: 3 failed attempts — alert generated.
+- lerato: 1 failed attempt — no alert generated.
+
+### Limitations
+This rule counts failed attempts across the entire dataset, rather than within a defined time window. It does not prove malicious activity, and legitimate users can trigger alerts by entering incorrect passwords.
+
+In a production environment, the rule should be tested against realistic data and adjusted to reduce false positives. Analysts should also consider timestamps, source IP addresses, successful logins and other available evidence.
+
+### Learning Outcome
+This project demonstrates basic Python automation, authentication log analysis, threshold-based alerting and evidence-based security investigation.
